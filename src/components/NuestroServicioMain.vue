@@ -2,30 +2,22 @@
   <v-container>
     <h1 class="titulo text-center">Nuestros servicios</h1>
     <p>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur
-      pariatur laudantium distinctio eum laborum eius necessitatibus, quod ad
-      amet ut reiciendis minima obcaecati molestias libero non odio ab
-      architecto optio. Lorem ipsum dolor sit amet consectetur adipisicing elit.
-      Sint, pariatur quod, cumque numquam dolore iste cum veritatis aut sunt,
-      neque quia! Harum mollitia eum magnam, iste pariatur saepe omnis sed.
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci labore
-      officia aliquid, non quam voluptas voluptatum ut blanditiis at deleniti,
-      corrupti eos quae optio ab dolore ullam molestias iste. Tenetur.
+      En 3DMax tenemos todo lo que usted necesita para realizar sus impresiones 3D, contamos con equipo técnico y humano de alta calidad que aseguran calidad, rapidéz y excelente atención. 
     </p>
     <v-row class="justify-space-around servicios">
       <div class= "serviciosIndividuales">
         <v-card class="mx-auto" max-width="344">
           <v-img
-            src="https://cdn.vuetifyjs.com/images/cards/sunshine.jpg"
+            src="../assets/ServicioImpresion3d.jpg"
             height="200px"
           ></v-img>
 
           <v-card-title>
-            Top western road trips
+            Impresión 3D
           </v-card-title>
 
           <v-card-subtitle>
-            1,000 miles of wonder
+            Más de 500 impresiones por año.
           </v-card-subtitle>
 
           <v-card-actions>
@@ -47,12 +39,7 @@
               <v-divider></v-divider>
 
               <v-card-text>
-                I'm a thing. But, like most politicians, he promised more than
-                he could deliver. You won't have time for sleeping, soldier, not
-                with all the bed making you'll be doing. Then we'll go with that
-                data file! Hey, you add a one and two zeros to that or we walk!
-                You're going to do his laundry? I've got to find a way to
-                escape.
+                En 3DMax utilizamos materiales de alta calidad para la impresión de tus productos. Envíanos tu diseño con extensión STL y el material en el cual deseas imprimirlo (ABS, PLA, PETG, PC, HIPS, PVA, Nylon, TPU) así podremos  cotizar e imprimir el modelo.
               </v-card-text>
             </div>
           </v-expand-transition>
@@ -61,16 +48,16 @@
       <div class= "serviciosIndividuales">
         <v-card class="mx-auto" max-width="344">
           <v-img
-            src="https://cdn.vuetifyjs.com/images/cards/sunshine.jpg"
+            src="../assets/ServicioModelado3d.jpg"
             height="200px"
           ></v-img>
 
           <v-card-title>
-            Top western road trips
+            Modelado 3D
           </v-card-title>
 
           <v-card-subtitle>
-            1,000 miles of wonder
+            Más de 1.000 diseños realizados.
           </v-card-subtitle>
 
           <v-card-actions>
@@ -92,12 +79,7 @@
               <v-divider></v-divider>
 
               <v-card-text>
-                I'm a thing. But, like most politicians, he promised more than
-                he could deliver. You won't have time for sleeping, soldier, not
-                with all the bed making you'll be doing. Then we'll go with that
-                data file! Hey, you add a one and two zeros to that or we walk!
-                You're going to do his laundry? I've got to find a way to
-                escape.
+                Transformamos sus ideas en realidad, realizamos diseños 3D de sus productos según sus requerimientos y especificaciones. Utilizamos diferentes software de modelado como SketchUp, Autocad 3D, Solidworks, Catia y 3dMax.
               </v-card-text>
             </div>
           </v-expand-transition>
@@ -106,16 +88,16 @@
       <div class= "serviciosIndividuales">
         <v-card class="mx-auto" max-width="344">
           <v-img
-            src="https://cdn.vuetifyjs.com/images/cards/sunshine.jpg"
+            src="../assets/ServicioAsistenciaTecnica.jpg"
             height="200px"
           ></v-img>
 
           <v-card-title>
-            Top western road trips
+              Asistencia técnica y venta de equipos
           </v-card-title>
 
           <v-card-subtitle>
-            1,000 miles of wonder
+            Equipos multimarca de alta calidad.
           </v-card-subtitle>
 
           <v-card-actions>
@@ -137,12 +119,7 @@
               <v-divider></v-divider>
 
               <v-card-text>
-                I'm a thing. But, like most politicians, he promised more than
-                he could deliver. You won't have time for sleeping, soldier, not
-                with all the bed making you'll be doing. Then we'll go with that
-                data file! Hey, you add a one and two zeros to that or we walk!
-                You're going to do his laundry? I've got to find a way to
-                escape.
+                Ofrecemos reparación impresoras 3D, mantenimiento correctivo y preventivo a impresoras 3D multimarca. También brindamos asesoría virtual a través de video llamada o llamada telefónica para corregir fallos menores y resolver dudas  respecto a impresiones 3D.
               </v-card-text>
             </div>
           </v-expand-transition>
