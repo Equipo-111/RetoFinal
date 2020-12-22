@@ -1,12 +1,18 @@
 <template>
-    <the-servicio/>
+<div class="servicio">
+    <v-main>
+        <the-servicio/>
+    </v-main>
+</div>
 </template>
 
 <script>
 import TheServicio from '../components/TheServicio.vue'
+
 export default {
-name: "TheServicio",
-  components: { TheServicio },
+name: "Servicios",
+  components: { TheServicio 
+  }
     
 }
 </script>

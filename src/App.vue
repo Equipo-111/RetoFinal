@@ -1,46 +1,102 @@
 <template>
   <v-app>
     <div class="container">
+      <v-toolbar dense flat>
+        <v-row>
+          <v-toolbar-title class="titulo col-4">
+            <a href="/">
+              3DMax
+            </a>
+          </v-toolbar-title>
+          <v-toolbar-items
+            flat
+            class="col-4 justify-space-between hidden-sm-and-down"
+          >
+            <v-btn class="tituloNavBar" text color="#004e63">
+              <router-link to="/" class="tituloNavBar">
+                Home
+              </router-link>
+            </v-btn>
 
-    <v-main>
-      <HelloWorld/>
-      <v-divider></v-divider>
-      <seccion-presentacion/>
-      
-      <v-divider></v-divider>
-      <nuestro-servicio-main/>
-      <v-divider></v-divider>
-      <trabajar-con-nosotros/>
-    </v-main>
+            <v-btn text color="#004e63">
+              <router-link to="Servicios" class="tituloNavBar">
+                servicios
+              </router-link>
+            </v-btn>
+
+            <v-btn class="tituloNavBar" text color="#004e63">
+              Nosotros
+            </v-btn>
+          </v-toolbar-items>
+          <v-spacer></v-spacer>
+          <v-btn class="ma-5 hidden-sm-and-down" outlined color="indigo">
+            Login
+          </v-btn>
+        </v-row>
+
+        <div class="text-center hidden-md-and-up">
+          <v-menu offset-y>
+            <template v-slot:activator="{ on, attrs }">
+              <v-btn color="primary" dark v-bind="attrs" v-on="on">
+                Menu
+              </v-btn>
+            </template>
+            <v-list>
+              <v-list-item 
+              v-for="([title,ruta],i) in items"
+              :key = "i"
+              link
+              :to="{name:ruta}" 
+              >
+                <v-list-item-title v-text="title"
+               >  </v-list-item-title>
+              </v-list-item>
+            </v-list>
+          </v-menu>
+        </div>
+      </v-toolbar>
+      <router-view />
+      <the-footer />
     </div>
-   
-
   </v-app>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld';
-import HomePresentacion from './components/home/HomePresentacion.vue';
-import NuestroServicioMain from './components/NuestroServicioMain.vue';
-import SeccionPresentacion from './components/SeccionPresentacion';
-import TrabajarConNosotros from './components/TrabajarConNosotros';
-
+import TheFooter from "../src/components/TheFooter";
 
 export default {
-  name: 'App',
+  name: "App",
 
   components: {
-    HelloWorld,
-    SeccionPresentacion,
-    NuestroServicioMain,
-    TrabajarConNosotros,
-    HomePresentacion
-    
+    TheFooter,
   },
 
   data: () => ({
-    //
- 
-    NuestroServicioMain }),
-};
+      items: [
+        [ 'Home','Home' ],
+        ['Servicios','Servicios' ],
+        [ 'Nosotros','Nosotros' ],
+        ["Login","login"]
+        
+      ],
+    }),
+  }
+
 </script>
+
+<style scoped>
+a {
+  text-decoration: none;
+}
+a:active {
+  text-decoration: none;
+}
+.v-toolbar__title {
+  font-size: 40px;
+}
+
+.v-btn.v-size--default,
+.v-btn.v-size--large {
+  font-size: 20px;
+}
+</style>

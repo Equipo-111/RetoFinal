@@ -16,12 +16,12 @@
       <div class= "serviciosIndividuales">
         <v-card class="mx-auto" max-width="344">
           <v-img
-            src="https://cdn.vuetifyjs.com/images/cards/sunshine.jpg"
+            src="../assets/ImpresorasCatalogo.jpg"
             height="200px"
           ></v-img>
 
           <v-card-title>
-            Top western road trips
+            Impresoras
           </v-card-title>
 
           <v-card-subtitle>
@@ -29,7 +29,7 @@
           </v-card-subtitle>
 
           <v-card-actions>
-            <v-btn color="orange lighten-2" text>
+            <v-btn color="orange lighten-2" href="" text>
               Explore
             </v-btn>
 
@@ -61,12 +61,12 @@
       <div class= "serviciosIndividuales">
         <v-card class="mx-auto" max-width="344">
           <v-img
-            src="https://cdn.vuetifyjs.com/images/cards/sunshine.jpg"
+            src="../assets/ModeladoImpresora.jpg"
             height="200px"
           ></v-img>
 
           <v-card-title>
-            Top western road trips
+            Modelado
           </v-card-title>
 
           <v-card-subtitle>
@@ -106,12 +106,12 @@
       <div class= "serviciosIndividuales">
         <v-card class="mx-auto" max-width="344">
           <v-img
-            src="https://cdn.vuetifyjs.com/images/cards/sunshine.jpg"
+            src="../assets/ServicioTecnico.jpg"
             height="200px"
           ></v-img>
 
           <v-card-title>
-            Top western road trips
+            Asistencia
           </v-card-title>
 
           <v-card-subtitle>
