@@ -37,6 +37,7 @@
             <v-btn class="ma-5 hidden-sm-and-down" outlined color="indigo">
               <router-link to="Login" class="tituloNavBar">
               Login
+              </router-link>
             </v-btn>
           </div>
 
