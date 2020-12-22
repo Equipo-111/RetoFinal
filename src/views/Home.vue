@@ -1,14 +1,9 @@
 <template>
   <div class="home">
     <v-main> 
-
-    
-    
     <home-presentacion/>
     <nuestro-servicio-main/>
     <trabajar-con-nosotros/>
-    
-   
     </v-main>
   </div>
 </template>
