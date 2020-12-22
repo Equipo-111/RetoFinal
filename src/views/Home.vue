@@ -15,7 +15,6 @@
 
 <script>
 // @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue';
 import HomePresentacion from '../components/home/HomePresentacion.vue';
 import TrabajarConNosotros from '../components/TrabajarConNosotros.vue';
 import NuestroServicioMain from '../components/NuestroServicioMain.vue';
@@ -26,7 +25,6 @@ import NuestroServicioMain from '../components/NuestroServicioMain.vue';
 export default {
   name: 'Home',
   components: {
-    HelloWorld,
     HomePresentacion,
     NuestroServicioMain,
     TrabajarConNosotros
