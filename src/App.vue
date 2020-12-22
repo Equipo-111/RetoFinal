@@ -3,10 +3,13 @@
     <div class="container">
       <v-toolbar dense flat>
         <v-row>
-          <v-toolbar-title class="titulo col-4">
-            <a href="/">
-              3DMax
+          <v-toolbar-title class="col-4">
+            
+
+            <a class="titulo" href="/">
+              <img src="https://i.ibb.co/C1v9hfk/Logo3-D-01.jpg" alt="" width="180px">
             </a>
+            
           </v-toolbar-title>
           <v-toolbar-items
             flat
@@ -29,9 +32,11 @@
             </v-btn>
           </v-toolbar-items>
           <v-spacer></v-spacer>
-          <v-btn class="ma-5 hidden-sm-and-down" outlined color="indigo">
-            Login
-          </v-btn>
+          <div class="titulo">
+            <v-btn class="ma-5 hidden-sm-and-down" outlined color="indigo">
+              Login
+            </v-btn>
+          </div>
         </v-row>
 
         <div class="text-center hidden-md-and-up">
@@ -88,8 +93,9 @@ export default {
 a {
   text-decoration: none;
 }
-a:active {
+a:visited {
   text-decoration: none;
+  color: #004e63;
 }
 .v-toolbar__title {
   font-size: 40px;
@@ -98,5 +104,10 @@ a:active {
 .v-btn.v-size--default,
 .v-btn.v-size--large {
   font-size: 20px;
+}
+.titulo{
+  display: flex;
+  align-items:center;
+  /* position: absolute; */
 }
 </style>

@@ -3,13 +3,9 @@
     <h1 class="titulo text-center">¿Por qué trabajar con nosotros?</h1>
     <p>
       
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia officiis
-      nam commodi aperiam natus nostrum ex tempora dignissimos culpa voluptates?
-      Voluptate doloremque architecto delectus! Numquam eaque accusantium quas
-      blanditiis debitis. Lorem ipsum dolor sit amet consectetur adipisicing
-      elit. Mollitia nulla iure, inventore tempora consectetur hic! Cumque
-      expedita ullam mollitia aspernatur dolorem amet hic possimus, reiciendis
-      placeat exercitationem. Dolor, dicta velit!
+     En 3DMax utilizamos los mejores insumos para la impresión de tus productos, además contamos con un equipo humano con amplia experiencia dispuesto a ayudarte. 
+     Envíanos tu diseño con extensión STL y el material en el cual deseas imprimirlo (ABS, PL, PETG, PC, HIPS, PVA, Nylon o TPU) así podremos cotizar e imprimir el modelo.
+      
       <v-row class="containerNosotros">
         <div class="col-6 col-md-3">
           <div class="nosotros">
@@ -18,10 +14,7 @@
           <div>
             <h4>Acercamiento</h4>
             <p class="hidden-md-and-down">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque
-              aut illo, nostrum possimus corrupti voluptas distinctio id
-              excepturi veritatis consequuntur expedita placeat! Voluptas, vero.
-              Accusantium iusto quas odio inventore dolore.
+              Creamos las primeras conexiones entre la idea y el diseño
             </p>
           </div>
         </div>
@@ -32,10 +25,7 @@
           <div>
             <h4>Direccionamiento</h4>
             <p class="hidden-md-and-down">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque
-              aut illo, nostrum possimus corrupti voluptas distinctio id
-              excepturi veritatis consequuntur expedita placeat! Voluptas, vero.
-              Accusantium iusto quas odio inventore dolore.
+              Planeamos cada proyecto con miras a obtener prototipos rápidos y de bajo costo
             </p>
           </div>
         </div>
@@ -46,10 +36,7 @@
           <div>
             <h4>Prototipado</h4>
             <p class="hidden-md-and-down">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque
-              aut illo, nostrum possimus corrupti voluptas distinctio id
-              excepturi veritatis consequuntur expedita placeat! Voluptas, vero.
-              Accusantium iusto quas odio inventore dolore.
+              Nuestra experiencia en diferentes proyectos hace posible la creación de nuevos prototipos
             </p>
           </div>
         </div>
@@ -60,10 +47,7 @@
           <div>
             <h4>Solución</h4>
             <p class="hidden-md-and-down">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque
-              aut illo, nostrum possimus corrupti voluptas distinctio id
-              excepturi veritatis consequuntur expedita placeat! Voluptas, vero.
-              Accusantium iusto quas odio inventore dolore.
+              Ponemos al servicio de nuestros aliados, la capacidad de impresión, diseño y direccionamiento que necesitan
             </p>
           </div>
         </div>

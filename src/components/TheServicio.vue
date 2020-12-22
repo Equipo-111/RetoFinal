@@ -108,7 +108,7 @@
           </v-col>
           <v-col class="col-9">
             <h4 class="subtitle">Soporte técnico</h4>
-            <p class="paragraph-3">Use this space to describe this benefit.</p>
+            <p class="paragraph-3">Brindamos soporte técnico a todas las impresoras que se encuentran en nuestro catalogo</p>
           </v-col>
         </v-row>
         <v-row>
@@ -117,7 +117,7 @@
           </v-col>
           <v-col class="col-9">
             <h4 class="subtitle">Capacitacion</h4>
-            <p class="paragraph-3">Use this space to describe this benefit.</p>
+            <p class="paragraph-3">Capacitate con nuestro equipo de tutores y aliados, aprende de nuestra experiencia y se parte de nuestro equipo</p>
           </v-col>
         </v-row>
       </v-col>
