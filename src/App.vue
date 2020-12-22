@@ -32,11 +32,14 @@
             </v-btn>
           </v-toolbar-items>
           <v-spacer></v-spacer>
+
           <div class="titulo">
             <v-btn class="ma-5 hidden-sm-and-down" outlined color="indigo">
+              <router-link to="Login" class="tituloNavBar">
               Login
             </v-btn>
           </div>
+
         </v-row>
 
         <div class="text-center hidden-md-and-up">
