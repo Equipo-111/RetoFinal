@@ -4,10 +4,7 @@
       <div class="col-12 col-md-6">
         <h1 class="tituloPresentacion">3D Max</h1>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique
-          dolore doloribus, nemo quo accusamus nam deserunt quidem minus eaque,
-          facere saepe ipsum alias numquam nisi officia? Voluptate quia eligendi
-          fugit?
+         Contamos con servicio de impresión 3D de alta calidad, modelado 3D y una amplia gama de impresoras 3D industriales y de escritorio.
         </p>
         <v-row class="justify-lg-start justify-md-space-between">
           <div class="col-lg-12">
@@ -91,8 +88,9 @@ a {
   text-decoration: none;
   
 }
-a:active {
+a:visited {
   text-decoration: none;
+  color: white;
   
 }
 </style>
