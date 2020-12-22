@@ -1,6 +1,6 @@
 <template>
   <v-app id="inspire">
-    <v-app-bar dark app class="navBar">
+    <v-app-bar dark app class="navBar" height=80>
       <v-app-bar-nav-icon @click="drawer = !drawer"></v-app-bar-nav-icon>
 
       <v-toolbar-title dark class="white--text">Administracion</v-toolbar-title>
