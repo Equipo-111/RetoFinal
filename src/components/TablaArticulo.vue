@@ -5,7 +5,7 @@
         :headers="headers"
         :items="articulos"
         sort-by="id"
-        class="elevation-1"
+        class="elevation-5"
         :loading="cargando"
         loading-text ="Cargando... Por favor espere"
       >

@@ -5,7 +5,7 @@
         :headers="headers"
         :items="usuarios"
         sort-by="id"
-        class="elevation-1"
+        class="elevation-5"
         :loading="cargando"
         loading-text ="Cargando... Por favor espere"
       >
@@ -221,7 +221,7 @@ export default {
         //put
         axios
           .put("http://localhost:3000/api/usuario/deactivate", {
-            email: this.editedItem.email,
+            id: this.editedItem.id,
           },
             {
               headers: {
@@ -238,7 +238,7 @@ export default {
         //post
         axios
           .put("http://localhost:3000/api/usuario/activate", {
-            email: this.editedItem.email,
+            id: this.editedItem.id,
           },
             {
               headers: {
@@ -276,6 +276,7 @@ export default {
         //put
         axios
           .put("http://localhost:3000/api/usuario/update", {
+            id: this.editedItem.id,
             email: this.editedItem.email,
             nombre: this.editedItem.nombre,
             rol: this.editedItem.rol,
@@ -296,6 +297,7 @@ export default {
         axios
           .post("http://localhost:3000/api/usuario/register", {
             estado: 1,
+            id: this.editedItem.id,
             email: this.editedItem.email,
             nombre: this.editedItem.nombre,
             rol: this.editedItem.rol,

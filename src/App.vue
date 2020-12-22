@@ -4,9 +4,7 @@
       <v-toolbar dense flat>
         <v-row>
           <v-toolbar-title class="col-4">
-            
-
-            <a class="titulo" href="/">
+            <a class="titulo mt-5" href="/">
               <img src="https://i.ibb.co/C1v9hfk/Logo3-D-01.jpg" alt="" width="180px">
             </a>
             
@@ -15,13 +13,13 @@
             flat
             class="col-4 justify-space-between hidden-sm-and-down"
           >
-            <v-btn class="tituloNavBar" text color="#004e63">
+            <v-btn to="/" class="tituloNavBar" text color="#004e63">
               <router-link to="/" class="tituloNavBar">
                 Home
               </router-link>
             </v-btn>
 
-            <v-btn text color="#004e63">
+            <v-btn to="Servicios" text color="#004e63">
               <router-link to="Servicios" class="tituloNavBar">
                 servicios
               </router-link>
@@ -34,7 +32,7 @@
           <v-spacer></v-spacer>
 
           <div class="titulo">
-            <v-btn class="ma-5 hidden-sm-and-down" outlined color="indigo">
+            <v-btn to="Login" class="ma-5 hidden-sm-and-down" outlined color="indigo" @click="">
               <router-link to="Login" class="tituloNavBar">
               Login
               </router-link>
