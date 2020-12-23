@@ -1,6 +1,6 @@
 <template>
   <v-container>
-    <section id="title" class="mt-16">
+    <section id="aboutUs" class="mt-16">
       <h2 class="titulo text-center">Quienes Somos.</h2>
 
       <div class="container mt-8">
@@ -8,7 +8,7 @@
           <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 mb-4">
             <div class="card h-100">
               <img
-                src="../assets/fotoincog.jpg"
+                src="../assets/Liza.jpeg"
                 class="card-img-top"
                 alt="Liza"
               />
@@ -51,7 +51,7 @@
           <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 mb-4">
             <div class="card h-100">
               <img
-                src="../assets/fotoincog2.jpg"
+                src="../assets/Omar.jpeg"
                 class="card-img-top"
                 alt="Omar"
               />
@@ -95,7 +95,7 @@
     <section id="title" class="mt-4">
       <h2 class="titulo text-center">Casos de Éxito.</h2>
 
-      <div class="card border-primary mb-3">
+      <div class="card mb-3">
         <v-row class="justify-space-around">
           <v-col class="col-12 col-lg-6 pt-2 pb-2 align-self-center">
             <h3 class="header-2">La mano biónica de bajo coste, BionicHand</h3>
@@ -126,7 +126,7 @@
         </v-row>
       </div>
 
-      <div class="card border-primary mb-3">
+      <div class="card mb-3">
         <v-row class="justify-space-around">
           <v-col class="col-12 col-sm-5 align-self-center">
             <v-img
@@ -186,9 +186,9 @@ export default {
   object-fit: scale-down;
 }
 
-#title img {
+#aboutUs img {
   max-height: 30vh;
-  object-fit: scale-down;
+  object-fit: contain;
 }
 .paragraph-1 {
   color: #798da3;
