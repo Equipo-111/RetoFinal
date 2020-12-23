@@ -37,9 +37,6 @@
                 Productos
               </router-link>
             </v-btn>
-            
-
-            </v-btn>
 
           </v-toolbar-items>
           <v-spacer></v-spacer>
