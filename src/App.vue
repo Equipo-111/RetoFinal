@@ -30,6 +30,7 @@
               <router-link to="Nosotros" class="tituloNavBar">
                 Nosotros
               </router-link>
+            </v-btn>
               
             <v-btn to="Productos" text color="#004e63">
               <router-link to="Productos" class="tituloNavBar">
