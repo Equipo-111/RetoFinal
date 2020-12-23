@@ -58,7 +58,7 @@
           <div justify-space-between>
           <v-row>
           <div class="col-4 github">
-             <a href="https://github.com/" target="_blank">
+             <a href="https://github.com/Equipo-111/RetoFinal" target="_blank">
             <v-icon
             x-large
             > mdi-github</v-icon></a>
